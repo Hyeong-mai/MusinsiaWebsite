@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="musinsa.js"></script>
+    
+    <link rel="stylesheet" href="musinsa_main.css">
+    <script src="https://kit.fontawesome.com/175c556c4c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    
+  
+
+    <title>musinsa</title>
+</head>
+<body>
+        <!-- /////////////////////////// -->
+        <!-- //////musinsa_btn////////// -->
+        <!-- /////////////////////////// -->
+        <div class="up_to__btn">
+           <button class="mv_btn" id="btn2" onclick="sideMv(2)"></button>
+           <button class="mv_btn" id="btn3" onclick="sideMv(3)"></button>
+        </div>
+        <!-- /////////////////////////// -->
+        <!-- ////////header///////////// -->
+        <!-- /////////////////////////// -->
+        <header>  
+            <button class="side_menu_open_btn">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="header_logo">
+                <a href="#">MUSINSA</a>
+            </div>
+            <div class="header_icon">
+                <ul class="header_icon_ul">
+                    <li class="search_openBtn"><i class="fas fa-search"></i></li>
+                    <li><span>로그인</span></li>
+                    <li><span>도움말</span></li>
+                    <li><span>마이페이지</span></li>
+                </ul>
+            </div>
+        </header>
+       
+        
+        <!-- /////////////////////////// -->
+        <!-- //////musinsa_side_menu//// -->
+        <!-- /////////////////////////// -->
+        <div class="side_menu">
+            <div class="side_menu_list">
+                <button class="side_menu_close_btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="side_list_ul">
+                    <li><span>MEN</span>
+                        <ul class="side_list_subul">
+                            <li>
+                                <span>아우터</span>
+                                <ul class="side_list_subul">
+                                    <li><span>후드 집업</span></li>  
+                                    <li><span>블루종/MA-1</span></li>
+                                    <li><span>레더/라이더스 재킷</span></li>
+                                    <li><span>트러커 재킷</span></li>
+                                    <li><span>슈트/블레이저 재킷</span></li>
+                                    <li><span>카디건</span></li>
+                                    <li><span>아노락 재킷</span></li>
+                                    <li><span>플리스/뽀글이</span></li>
+                                    <li><span>트레이닝 재킷</span></li>
+                                    <li><span>스타디움 재킷</span></li>
+                                </ul>
+                            </li>  
+                            <li><span>상의</span></li>
+                            <li><span>하의</span></li>
+                            <li><span>신발</span></li>
+                            <li><span>악세사리</span></li>
+                        </ul>
+                    </li>
+                    <li><span>WOMAN</span></li>
+                    <li><span>KIDS</span></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /////////////////////////// -->
+        <!-- //////musinsa_main///////// -->
+        <!-- /////////////////////////// -->
+        <section class="musinsa_main">
+            <button class="musinsa_main_btn left_btn">
+                <i class="fas fa-chevron-left"></i><span>MEN</span>
+            </button>
+            <button class="musinsa_main_btn right_btn">
+                <span>WOMAN</span><i class="fas fa-chevron-right"></i>
+            </button>
+            <button class="musinsa_main_down_btn">
+                <span>scroll</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="musinsa_main_wrap">
+                <div class="musinsa_sec musinsa_men">
+                    <div class="musinsa_sec_img musinsa_sec_img1">
+                        <img src="img/musinsa_men_1.jpeg">
+                        <span>Men's clothing this quarter recommended by MUSINSA</span>
+                    </div>
+                    <div class="musinsa_sec_img musinsa_sec_img2">
+                        <img src="img/musinsa_men_2.jpeg">
+                    </div>
+                    <div class="musinsa_sec_img musinsa_sec_img3">
+                        <img src="img/musinsa_men_3.jpeg">
+                    </div>
+                </div>
+                <div class="musinsa_sec musinsa_woman">
+                    <div class="musinsa_sec_img musinsa_sec_img2">
+                        <img src="img/musinsa_woman_2.jpeg">
+                    </div>
+                    <div class="musinsa_sec_img musinsa_sec_img1">
+                        <img src="img/musinsa_woman_1.jpeg">
+                        <span>Women's clothing this quarter recommended by MUSINSA</span>
+                    </div>
+                    <div class="musinsa_sec_img musinsa_sec_img3">
+                        <img src="img/musinsa_woman_3.jpeg">
+                    </div>
+                </div>
+                <div class="musinsa_sec musinsa_kids">
+                    <div class="musinsa_sec_img musinsa_sec_img3">
+                        <img src="img/musinsa_kid_3.jpeg">
+                    </div>
+                    <div class="musinsa_sec_img musinsa_sec_img2">
+                        <img src="img/musinsa_kid_2.jpeg">
+                    </div>
+                    <div class="musinsa_sec_img musinsa_sec_img1">
+                        <img src="img/musinsa_kid_1.jpeg">
+                        <span>Kids's clothing this quarter recommended by MUSINSA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /////////////////////////// -->
+        <!-- //////musinsa_list///////// -->
+        <!-- /////////////////////////// -->
+        <section class="musinsa_header" id="mv2">
+           
+        </section>
+        <section class="musinsa_list">  
+            <div class="musinsa_list_ttitle">
+                <h1>MUSINSA WOMAN</h1>
+                <div class="move_bar_wrap">
+                    <span>보기</span>
+                    <div class="move_bar">
+                        <div class="move_bar_btn" id="bar_btn1"></div>
+                        <div class="move_bar_btn" id="bar_btn2"></div>
+                        <div class="move_bar_btn" id="bar_btn3"></div>
+                        <div class="move_bar_line"></div>
+                        <div class="move_bar_icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="column">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_1.jpeg" alt="men" name="1">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn" value="1"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_2.jpeg" alt="men" name="2">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_3.jpeg" alt="men" name="3">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_4.jpeg" alt="men" name="4">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_5.jpeg" alt="men" name="5">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_6.jpeg" alt="men" name="6">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- <img src="img/musinsa_men_1.jpeg" alt="no">
+                    <img src="img/musinsa_men_2.jpeg" alt="no">
+                    <img src="img/musinsa_men_3.jpeg" alt="no">
+                    <img src="img/musinsa_men_4.jpeg" alt="no">
+                    <img src="img/musinsa_men_5.jpeg" alt="no">
+                    <img src="img/musinsa_men_6.jpeg" alt="no"> -->
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_7.jpeg" alt="men" name="7">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_8.jpeg" alt="men" name="8">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_9.jpeg" alt="men" name="9">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_10.jpeg" alt="men" name="10">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_1.jpeg" alt="woman" name="1">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_2.jpeg" alt="woman" name="2">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- <img src="img/musinsa_men_7.jpeg" alt="no">
+                    <img src="img/musinsa_men_8.jpeg" alt="no">
+                    <img src="img/musinsa_men_9.jpeg" alt="no">
+                    <img src="img/musinsa_men_10.jpeg" alt="no">
+                    <img src="img/musinsa_woman_1.jpeg" alt="no">
+                    <img src="img/musinsa_woman_2.jpeg" alt="no"> -->
+                </div>  
+                <div class="column">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_3.jpeg" alt="woman" name="3">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_4.jpeg" alt="woman" name="4">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_5.jpeg" alt="woman" name="5">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_6.jpeg" alt="woman" name="6">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_7.jpeg" alt="woman" name="7">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_8.jpeg" alt="woman" name="8">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- <img src="img/musinsa_woman_3.jpeg" alt="no">
+                    <img src="img/musinsa_woman_4.jpeg" alt="no">
+                    <img src="img/musinsa_woman_5.jpeg" alt="no">
+                    <img src="img/musinsa_woman_6.jpeg" alt="no">
+                    <img src="img/musinsa_woman_7.jpeg" alt="no">
+                    <img src="img/musinsa_woman_8.jpeg" alt="no"> -->
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_9.jpeg" alt="woman" name="9">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_10.jpeg" alt="woman" name="10">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_kid_1.jpeg" alt="kid" name="1">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_kid_2.jpeg" alt="kid" name="2">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_kid_3.jpeg" alt="kid" name="3">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_1.jpeg" alt="men" name="1">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- <img src="img/musinsa_woman_9.jpeg" alt="no">
+                    <img src="img/musinsa_woman_10.jpeg" alt="no">
+                    <img src="img/musinsa_kid_1.jpeg" alt="no">
+                    <img src="img/musinsa_kid_2.jpeg" alt="no">
+                    <img src="img/musinsa_kid_3.jpeg" alt="no">
+                    <img src="img/musinsa_men_1.jpeg" alt="no"> -->
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_7.jpeg" alt="men" name="7">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_8.jpeg" alt="men" name="8">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_9.jpeg" alt="men" name="9">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_10.jpeg" alt="men" name="10">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_1.jpeg" alt="woman" name="1">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_2.jpeg" alt="woman" name="2">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- <img src="img/musinsa_men_7.jpeg" alt="no">
+                    <img src="img/musinsa_men_8.jpeg" alt="no">
+                    <img src="img/musinsa_men_9.jpeg" alt="no">
+                    <img src="img/musinsa_men_10.jpeg" alt="no">
+                    <img src="img/musinsa_woman_1.jpeg" alt="no">
+                    <img src="img/musinsa_woman_2.jpeg" alt="no"> -->
+                </div>   
+                <div class="column">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_3.jpeg" alt="woman" name="3">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_4.jpeg" alt="woman" name="4">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_5.jpeg" alt="woman" name="5">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_6.jpeg" alt="woman" name="6">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_7.jpeg" alt="woman" name="7">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_8.jpeg" alt="woman" name="8">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- <img src="img/musinsa_woman_3.jpeg" alt="no">
+                    <img src="img/musinsa_woman_4.jpeg" alt="no">
+                    <img src="img/musinsa_woman_5.jpeg" alt="no">
+                    <img src="img/musinsa_woman_6.jpeg" alt="no">
+                    <img src="img/musinsa_woman_7.jpeg" alt="no">
+                    <img src="img/musinsa_woman_8.jpeg" alt="no"> -->
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_1.jpeg" alt="men" name="1">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn" value="1"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_2.jpeg" alt="men" name="2">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_3.jpeg" alt="men" name="3">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_4.jpeg" alt="men" name="4">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_5.jpeg" alt="men" name="5">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_6.jpeg" alt="men" name="6">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- <img src="img/musinsa_men_1.jpeg" alt="no">
+                    <img src="img/musinsa_men_2.jpeg" alt="no">
+                    <img src="img/musinsa_men_3.jpeg" alt="no">
+                    <img src="img/musinsa_men_4.jpeg" alt="no">
+                    <img src="img/musinsa_men_5.jpeg" alt="no">
+                    <img src="img/musinsa_men_6.jpeg" alt="no"> -->
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_9.jpeg" alt="woman" name="9">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_woman_10.jpeg" alt="woman" name="10">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_kid_1.jpeg" alt="kid" name="1">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_kid_2.jpeg" alt="kid" name="2">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_kid_3.jpeg" alt="kid" name="3">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="img/musinsa_men_1.jpeg" alt="men" name="1">
+                        </div>
+                        <div class="details">
+                            <div class="details_wrap">
+                                <span>BEST/ +4 컬러</span>
+                                <p>musinsa clothing</p>
+                                <p>48,000원</p>
+                            </div>
+                            <button class="detail_btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- <img src="img/musinsa_woman_9.jpeg" alt="no">
+                    <img src="img/musinsa_woman_10.jpeg" alt="no">
+                    <img src="img/musinsa_kid_1.jpeg" alt="no">
+                    <img src="img/musinsa_kid_2.jpeg" alt="no">
+                    <img src="img/musinsa_kid_3.jpeg" alt="no">
+                    <img src="img/musinsa_men_1.jpeg" alt="no"> -->
+                </div>
+            </div>
+        </section>
+        <!-- /////////////////////////// -->
+        <!-- ///musinsa_item-info/////// -->
+        <!-- /////////////////////////// -->
+        <section class="musinsa_item_info">
+
+        </section>
+        <!-- /////////////////////////// -->
+        <!-- //////musinsa_contact////// -->
+        <!-- /////////////////////////// -->
+        <section class="musinsa_contact" id="mv3">
+            <div class="musinsa_contact_wrap">
+                <div class="contact_input">
+                    
+                    <span>PLEASE CONTACT US</span>
+                    <input type="text" placeholder="이메일을 입력하세요.">
+                   
+                    <div class="contact_textarea">
+                        <textarea   name="contact" id="contact_area"></textarea>
+                        <button class="contact_btn">send</button>
+                    </div>
+                </div>
+                <div class="contact_icon">
+                  <a href="#">FACEBOOK</a>
+                  <a href="#">INSTARGRAM</a>
+                  <a href="#">TWITER</a>
+                  <a href="#">YOUTUBE</a>
+                  <a href="#">KAKAO</a>
+                </div>
+            </div>
+        </section>
+        <!-- /////////////////////////// -->
+        <!-- //////////footer/////////// -->
+        <!-- /////////////////////////// -->
+        <footer id="mv4">
+            <div class="musinsa_info">
+                <div class="musinsa_adress1">
+                    <span>무신사 편집팀</span>
+                    <p>
+                        경기도 성남시 분당구 서현동 255-1 
+                    </p>
+                </div>
+                <div class="musinsa_adress2">
+                    <span>무신사 스토어</span>
+                    <p>
+                        경기도 성남시 분당구 서현동 255-1 
+                    </p>
+                </div>
+                <div class="musinsa_number">
+                    <span>무신사 고객센터</span>
+                    <p>대표번호: 010-2906-4553</p>
+                    <p id="small_p">오전9시-오후6시(토,일, 공휴일 휴무)</p>
+                </div>
+            </div>
+            <div class="musinsa_copyright">
+                <span>
+                    COPYRIGHT (C) KHM ALL RIGHTS RESERVED.
+                </span>
+            </div>
+        </footer>
+        <!-- /////////////////////////// -->
+        <!-- //////////search/////////// -->
+        <!-- /////////////////////////// -->
+        <section class="search">
+            <div class="search_wrap">
+                <button class="search_closeBtn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <input type="text" placeholder="검색어를 입력하세요">
+                <span></span>
+            </div>
+        </section>
+        <!-- /////////////////////////// -->
+        <!-- //////////search/////////// -->
+        <!-- /////////////////////////// -->
+        <section class="info">
+            <button class="info_wrap_close_btn"><i class="fas fa-undo-alt"></i></button>
+            <div class="info_wrap">
+                <div class="info_empty"></div>
+                <div class="img_slide">
+                    <div class="img_slide_main">
+                        <div class="img_slide_wrap">
+                            <div class="slide_img_wrap" name="1" >
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'"> 
+                            </div>
+                            <div class="slide_img_wrap" name="2">
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                            <div class="slide_img_wrap" name="3">
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                            <div class="slide_img_wrap" name="4">
+                               <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                            <div class="slide_img_wrap" name="5">
+                              <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                            <div class="slide_img_wrap" name="6">
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                            <div class="slide_img_wrap" name="7">
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img_slide_sub">
+                        <div class="slideBar">
+                            <span>  </span>
+                        </div>
+                        <div class="img_subSlide_wrap">
+                            <div class="subSlide_img_wrap" name="1">
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'"> 
+                            </div>
+                            <div class="subSlide_img_wrap" name="2">
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                            <div class="subSlide_img_wrap" name="3">
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                            <div class="subSlide_img_wrap" name="4">
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                            <div class="subSlide_img_wrap" name="5">
+                                <img src="#" onerror="this.src='img/musinsa_none.jpeg'">  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img_info">
+                    <div class="img_info_first">
+                        <span class="title"></span>
+                        <p class="p_info"></p> 
+                        <table>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <td class="join_price"></td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="product_color"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="img_info_second">
+                        <table>
+                            <tr>
+                                <td>L (KR 77)</td><td></td>
+                            </tr>
+                            <tr>
+                                <td>M (KR 66)</td><td></td>
+                            </tr>
+                            <tr>
+                                <td>S (KR 55)</td><td></td>
+                            </tr>
+                            <tr>
+                                <td>XS (KR 44)</td><td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="img_info_tired">
+                        <button class="product_buy">장바구니</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
